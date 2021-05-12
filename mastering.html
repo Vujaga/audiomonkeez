@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Audiomonkeez</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-default navbar-fixed-top"
+        role="navigation"
+        id="topnavbar"
+      >
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navigation"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">
+              <img
+                alt="logo"
+                src="./img/logo.jpg"
+                class="img-responsive logo"
+              />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="nav-link">Studio</a></li>
+              <li><a href="#" class="nav-link">Mastering</a></li>
+              <li><a href="#" class="nav-link">About</a></li>
+              <div class="icon-box">
+                <a
+                  href="https://www.linkedin.com/in/goran-vitorovic-b0211062/"
+                  target="_blank"
+                  class="icon-box__link"
+                >
+                  <svg class="icon-box__item">
+                    <use xlink:href="img/sprite.svg#icon-linkedin1"></use>
+                  </svg>
+                </a>
+                <a
+                  href="https://www.facebook.com/goran.vitorovic.14"
+                  target="_blank"
+                  class="icon-box__link"
+                >
+                  <svg class="icon-box__item">
+                    <use xlink:href="img/sprite.svg#icon-facebook2"></use>
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/vitogoran/"
+                  target="_blank"
+                  class="icon-box__link"
+                >
+                  <svg class="icon-box__item">
+                    <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="mastering-bg">
+      <img src="./img/mastering-2.jpg" alt="studio" class="studio-m" />
+      <div class="container-m">
+        <h2 class="heading-m">Audiomonkeez Studio</h2>
+        <p class="txt-m">
+          Welcome to Audiomonkeez Studio – We offer professional mixing and
+          mastering services for your music whether you’ve recorded in a home
+          studio or professional studio, whether you’re a beginner or pro. Our
+          services cater to all artists, producers and A&R across the board. Our
+          mixing and mastering packages include everything you need in order for
+          your music to reach its full potential. We cut no corners and stick
+          with you until you’re satisfied. Our staff is responsive, helpful,
+          friendly, and we’re here to make you sound amazing. Take a look around
+          our website and check out what we offer! Feel free to contact us with
+          any questions!
+        </p>
+      </div>
+    </div>
+    <footer class="footer">
+      <ul class="footer-nav">
+        <li class="nav__item"><a href="#" class="nav__link">Engineers</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">News</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Partners</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Events</a></li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Legal & Privacy</a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; Copyright by Easy Mind Studios</p>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script>
+      $(document).ready(function () {
+        $(document.body).css('padding-top', $('#topnavbar').height() + 10);
+        $(window).resize(function () {
+          $(document.body).css('padding-top', $('#topnavbar').height() + 10);
+        });
+      });
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
