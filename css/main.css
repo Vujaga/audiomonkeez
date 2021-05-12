@@ -20,8 +20,8 @@
 }
 
 .logo {
-  height: 100px;
-  margin-top: -15px;
+  height: 90px;
+  margin-top: -5px;
 }
 
 .navbar-toggle {
@@ -30,6 +30,7 @@
 
 .collapse {
   background-color: #fff;
+  border: none;
 }
 
 .collapse ul {
@@ -445,6 +446,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .logo {
+    height: 80px;
+    margin: 0;
+  }
+
   .nav {
     text-align: center;
   }
@@ -461,7 +467,7 @@
   }
 
   .heading-primary-sub {
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 
@@ -510,13 +516,18 @@
 }
 
 @media screen and (max-width: 600px) {
+  .logo {
+    height: 70px;
+    margin-top: 5px;
+  }
+
   .heading-primary-main {
     font-size: 40px;
     letter-spacing: 5px;
   }
 
   .heading-primary-sub {
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
   }
 
@@ -536,7 +547,7 @@
   }
 
   .heading-primary-sub {
-    font-size: 7px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
 

@@ -15,7 +15,7 @@ function showPopup() {
       clearInterval(timer);
       signupPopup.classList.add('show');
     }
-    console.log(i);
+    // console.log(i);
   }, 1000);
 }
 
